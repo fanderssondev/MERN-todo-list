@@ -1,9 +1,15 @@
-import React from 'react';
+import { Outlet } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import Header from './components/Header';
+import HomeScreen from './screens/HomeScreen';
 
 const App = () => {
   return (
     <>
-      <h1>Mern TODO List</h1>
+      <Header />
+      <Container className='my-2'>
+        <Outlet />
+      </Container>
     </>
   );
 };
