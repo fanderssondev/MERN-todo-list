@@ -7,5 +7,3 @@ export const apiSlice = createApi({
   tagTypes: ['User'],
   endpoints: builder => ({}),
 });
-
-// BUG No api object in redux devtools state
