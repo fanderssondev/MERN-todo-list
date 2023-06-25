@@ -34,6 +34,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
+              {/* Drop down menu */}
               {userInfo ? (
                 <>
                   <NavDropdown title={userInfo.name} id='username'>
