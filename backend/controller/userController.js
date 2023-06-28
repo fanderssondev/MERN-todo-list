@@ -114,4 +114,4 @@ export {
   updateUserProfile,
 };
 
-// NOTE Video paused @2:37:50  https://www.youtube.com/watch?v=R4AhvYORZRY
+// NOTE Video paused @3:10:27  https://www.youtube.com/watch?v=R4AhvYORZRY
